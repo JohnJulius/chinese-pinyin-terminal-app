@@ -35,6 +35,14 @@ Phonetic components often have a similar sound to the character they are part of
 3. Make into an API (FastAPI)
 
 4. Gamification
+## Packaging Your PySimpleGUI Application for Windows
+python -m pip install pysimplegui
+python -m pip install pyinstaller
+
+pyinstaller --onefile img_viewer.py
+
+To remove the console, you can use the --noconsole or the --windowed flag when running PyInstaller.
+
 
 5. Display on APP
 
